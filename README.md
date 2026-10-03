@@ -83,7 +83,7 @@ Makefile
 
 ## Known limitations
 
-This is an educational project and it is not a replacement for the official RENAPO service.
+This is an educational project.
 
 - The generated CURP is for learning purposes only; the real homoclave (position 17) is assigned by RENAPO.
 - Names starting with `MARIA` or `JOSE` should use the second name for positions 4 and 16. The helper `first_given_name` exists but its result is not wired in yet.
@@ -91,6 +91,3 @@ This is an educational project and it is not a replacement for the official RENA
 - The letter `N-tilde` is not converted to `X` in positions 14-16.
 - Accent handling uses Latin-1 / Windows-1252 byte values. In a UTF-8 terminal, accented characters are dropped from the input, so type names without accents there.
 
-## License
-
-Released under the MIT License. See [LICENSE](LICENSE).
